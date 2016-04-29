@@ -1,0 +1,659 @@
+{
+  "gatelist": [
+    {
+      "id": "gate_1", 
+      "name": "第一关：看穿风险", 
+      "progress": "100%", 
+      "getThrough": true, 
+      "hspassed": false, 
+      "lastTime": "2015/06/11 14:23:57", 
+      "count": 3, 
+      "finishTime": "3小时30分", 
+      "bestScore": 76, 
+      "imgs": [
+        "new_ui/images/game/banner (1).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (5).jpg"
+      ], 
+      "brief": {
+        "title": "第1关简介标题", 
+        "details": "第1关简介内容"
+      }, 
+      "present": {
+        "title": "<div>您已经打卡锦囊</div><div>恭喜获得金叶子道具</div>", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_2", 
+      "name": "第二关：管理投资组合", 
+      "progress": "100%", 
+      "getThrough": true, 
+      "hspassed": false, 
+      "lastTime": "2015/8/1 12:23:57", 
+      "count": 8, 
+      "finishTime": "4小时30分", 
+      "bestScore": 86, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第2关简介标题", 
+        "details": "第2关简介内容"
+      }, 
+      "present": {
+        "title": "<div>您已经打卡锦囊</div><div>恭喜获得金叶子道具</div>", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_3", 
+      "name": "第三关：优化资产配置和税务", 
+      "progress": "100%", 
+      "getThrough": true, 
+      "hspassed": false, 
+      "lastTime": "2015/8/6 15:23:57", 
+      "count": 18, 
+      "finishTime": "2小时30分", 
+      "bestScore": 78, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第3关简介标题", 
+        "details": "第3关简介内容"
+      }, 
+      "present": {
+        "title": "<div>您已经打卡锦囊</div><div>恭喜获得金叶子道具</div>", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png",
+        "mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_1", 
+      "name": "BOSS关卡一：智取金钥匙", 
+      "getThrough": true, 
+      "hspassed": false, 
+      "lastTime": "2015/8/7 16:23:57", 
+      "count": 18, 
+      "finishTime": "2小时30分", 
+      "bestScore": 93, 
+      "star": 3, 
+      "brief": {
+        "title": "第一关剧情", 
+        "details": "在经历前几个关卡后，山灵决定对每一位闯关者进行一次考验，如果成功通过将获得金钥匙一把。开始闯关吧"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>获得金钥匙法宝</div>",  
+        "img": "new_ui/images/game/fb1.png","mini_img":"new_ui/images/game/fb_1_1.png","mini_img":"new_ui/images/game/fb_1_1.png",
+        "des": "金钥匙：在金融行业里，学会认识风险，规避风险，同时合理地进行投资组合配置相当于获得一把打开财富之门的钥匙."
+      }
+    }, 
+    {
+      "id": "gate_4", 
+      "name": "第四关：一打\"期权\"", 
+      "progress": "63%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "2015/06/13 14:23:57", 
+      "count": 11, 
+      "finishTime": "", 
+      "bestScore": 55, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第4关简介标题", 
+        "details": "第4关简介内容"
+      }, 
+      "present": {
+        "title": "<div>您已经打卡锦囊</div><div>恭喜获得金叶子道具</div>",  
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_5", 
+      "name": "第五关：二打\"互换\"", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第5关简介标题", 
+        "details": "第5关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具5", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_6", 
+      "name": "第六关：三打\"交易\"", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第6关简介标题", 
+        "details": "第6关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具6", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_2", 
+      "name": "BOSS关卡二：降服衍生品", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "brief": {
+        "title": "第二关剧情", 
+        "details": "烟消云散，三个怪兽已经都被你击败，接下来山灵将对您的斩杀技能做考验！开始出战吧。"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>财富弯刃!</div>", 
+        "img": "new_ui/images/game/fb2.png","mini_img":"new_ui/images/game/fb_2_1.png", 
+        "des": "一刀在手，财富我有。有了财富弯刃，你已经获得了理财的基本成就感！开始财富的不断积累吧！"
+      }
+    }, 
+    {
+      "id": "gate_7", 
+      "name": "第七关：债券知多少", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第7关简介标题", 
+        "details": "第7关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具7", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_8", 
+      "name": "第八关：固定收益的价值", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第8关简介标题", 
+        "details": "第8关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具8", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_3", 
+      "name": "BOSS关卡三：喜迎固定收益", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "brief": {
+        "title": "第三关剧情", 
+        "details": "众人继续前行！你奋力挥刀一砍，只见一山门大开，里面金光闪闪，似乎有宝物藏在里面！你顿时热血沸腾快去拿宝箱吧。"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>获取金宝箱!</div>", 
+        "img": "new_ui/images/game/fb3.png","mini_img":"new_ui/images/game/fb_3_1.png", 
+        "des": "打开宝箱，你将全部的金银财宝都装入了行囊，这是山灵对你掌握了固定收益知识最大的奖赏。"
+      }
+    }, 
+    {
+      "id": "gate_9", 
+      "name": "第九关：时间去哪啦 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第9关简介标题", 
+        "details": "第9关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具9", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_10", 
+      "name": "第十关：时间与价值 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第10关简介标题", 
+        "details": "第10关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具10", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_11", 
+      "name": "第十一关：公司的路在何方 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第11关简介标题", 
+        "details": "第11关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具11", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_4", 
+      "name": "BOSS关卡四：决策公司金融", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "brief": {
+        "title": "第四关剧情", 
+        "details": "你背着满满一袋子宝物继续前进，只见前面松柏掩映！一群商人挡住去路，他们声称你身上的宝物是他们原先藏在山洞里的，并且要求你物归原主！山灵将作出公平决断，只要你的雄辩能力胜过他们，你便可以带着宝物继续前进！开始辩论吧"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>孔明扇!</div>", 
+        "img": "new_ui/images/game/fb4.png","mini_img":"new_ui/images/game/fb_4_1.png", 
+        "des": "孔明扇：山灵奖励你一把孔明扇！这就是传说中的孔明扇，它可以让你凭借智慧和雄辩能力守住自己的财宝！"
+      }
+    }, 
+    {
+      "id": "gate_12", 
+      "name": "第十二关：证券市场知识的事儿 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第12关简介标题", 
+        "details": "第12关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具12", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_13", 
+      "name": "第十三关：证券交易知识的事儿 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第13关简介标题", 
+        "details": "第13关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具13", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_14", 
+      "name": "第十四关：证券投资分析的事儿 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第14关简介标题", 
+        "details": "第13关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具14", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_5", 
+      "name": "BOSS关卡五：话说证券那些事儿", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "brief": {
+        "title": "第五关剧情", 
+        "details": "山峰高耸入云，云雾起起伏伏！难以捉摸！深不可测！这一段路程，你将面临更大的风险和阻碍，你也可能获取更多的收益！"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>获得藏宝图!</div>", 
+        "img": "new_ui/images/game/fb5.png","mini_img":"new_ui/images/game/fb_5_1.png", 
+        "des": "藏宝图：穿过迷雾，你在一颗老树下发现了一卷藏宝图！有了它你可以顺利实现财富的多倍增值！"
+      }
+    }, 
+    {
+      "id": "gate_15", 
+      "name": "第十五关：运营 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第15关简介标题", 
+        "details": "第15关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具15", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_16", 
+      "name": "第十六关：策略 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第16关简介标题", 
+        "details": "第16关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具16", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_17", 
+      "name": "第十七关：投资 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第17关简介标题", 
+        "details": "第17关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具17", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_6", 
+      "name": "BOSS关卡六：对冲基金知多少", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "brief": {
+        "title": "第六关剧情", 
+        "details": "远远望过去，对面是平坦的大道！但是一道深深的山谷挡住去路，你需要想办法飞过去。最好的办法是，你能够快速练就绝世轻功！忽然山灵现身，她答应你只要你通过他的考验便可以给你一本轻功秘籍！你能通过吗？"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>获得轻功秘籍《踏雪无痕》!</div>", 
+        "img": "new_ui/images/game/fb6.png","mini_img":"new_ui/images/game/fb_6_1.png", 
+        "des": "轻功秘籍《踏雪无痕》：有了它你的轻功可以更上一层楼，可以毫不费力气的通过基金谷，获取预期的收益！"
+      }
+    }, 
+    {
+      "id": "gate_18", 
+      "name": "第十八关：中华人名共和国公司法 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第18关简介标题", 
+        "details": "第18关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具18", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_19", 
+      "name": "第十九关：证券管理各个条例 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第19关简介标题", 
+        "details": "第19关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具19", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "gate_20", 
+      "name": "第六关：从业人员行为准则 ", 
+      "progress": "0%", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "imgs": [
+        "new_ui/images/game/banner (5).jpg", 
+        "new_ui/images/game/banner (4).jpg", 
+        "new_ui/images/game/banner (3).jpg", 
+        "new_ui/images/game/banner (2).jpg", 
+        "new_ui/images/game/banner (1).jpg"
+      ], 
+      "brief": {
+        "title": "第20关简介标题", 
+        "details": "第20关简介内容"
+      }, 
+      "present": {
+        "title": "您已经打开锦囊<br>恭喜获得金叶子道具20", 
+       "img": "new_ui/images/game/dj_1_1.png","mini_img":"new_ui/images/game/dj_1.png"
+      }
+    }, 
+    {
+      "id": "boss_7", 
+      "name": "BOSS关卡七：\"取金\"路上紧箍咒", 
+      "getThrough": false, 
+      "hspassed": false, 
+      "lastTime": "", 
+      "count": 0, 
+      "finishTime": "", 
+      "bestScore": 0, 
+      "brief": {
+        "title": "第一关剧情", 
+        "details": "在经历前几个关卡后，山灵决定对每一位闯关者进行一次考验，如果成功通过将获得金钥匙一把。开始闯关吧"
+      }, 
+      "present": {
+        "title": "<div>恭喜你!</div><div>获得头疼逍遥散</div>", 
+        "img": "new_ui/images/game/fb7.png","mini_img":"new_ui/images/game/fb_7_1.png", 
+        "des": "头疼逍遥散：喝下之后你顿悟！原来遵守山灵规定，合法经营就是最好的止疼药啊！"
+      }
+    }
+  ]
+}

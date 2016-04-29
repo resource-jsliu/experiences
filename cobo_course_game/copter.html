@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="new_ui/framework/jquery-1.11.3.min.js"></script>
+  <script src="new_ui/framework/bootstrap2/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="new_ui/framework/bootstrap2/css/bootstrap.css"></link>
+
+  <link rel="stylesheet" type="text/css" href="new_ui/css/copter.css">
+  <script type="text/javascript" src="new_ui/js/copter_user.js"></script>
+  <script type="text/javascript" src="new_ui/js/copter.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="top_pic">
+			<img src="new_ui/images/game/bg_top.png" >
+		</div>
+		<div class="logo_floor">
+			<div class="logo_layer">
+				<div class="logo">
+					<img src="new_ui/images/game/logo.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of header -->
+
+	<div class="mainContent">
+		<div class="uerInfo">
+			<div class="left_side user_pic">
+				<div><img src="new_ui/images/game/pic.png"></div>
+				<div class="goBack">[返回首页]</div>
+			</div>
+			<div class="left_side user_msg">
+				<div><span>张小二</span>，愿财富山之旅成为你的美好回忆！</div>
+				<div class="prop">
+					<div>已获道具:&nbsp;<img src="new_ui/images/game/dj_1.png" width="35px" height="44px"> × <span>0</span></div>
+					<div>我的总分值：<span>0</span></div>
+				</div>
+				<div class="weapon"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- end of uerInfo -->
+		
+		<div id="gate_name"></div>
+		<div class="btn_group">
+			<div class="back_index"><img src="new_ui/images/game/but_2.png"></div>
+			<div class="start_study"><img src="new_ui/images/game/but_3.png"></div>
+			<div class="open_wallet"><img src=""></div>
+		</div>
+		<div class="gate_rate">
+			<div class="block_title">关卡进度</div>
+			<!-- 小关卡的关卡信息 -->
+			<div class="gate_rate_small" style="display:none;">
+				<div class="user_info1">
+					<div class="user_rate">
+						<div>当前进度：</div>
+						<div class="rate_bar">
+							<div class="rate_barbg">
+								<div class="rate_progress" style="width:0%"></div>
+							</div>
+							<div class="rate_star"><img src="new_ui/images/game/jindu_2.png"></div>
+						</div>
+						<div>0%</div>
+					</div>
+					<div class="lastTime">
+						<span>上一次闯关时间：</span>
+						<span>--</span>
+					</div>
+					<div class="user_count">
+						<div>
+							<span>闯关次数：</span>
+							<span>--</span>
+						</div>
+						<div class="hspassed"><img src="new_ui/images/game/ico_5.png"></div>
+					</div>
+				</div>
+				<div class="user_info2">
+					<div class="total_time">
+						<span>完成关卡所用时间：</span>
+						<span>--</span>
+					</div>
+					<div class="bestScore">
+						<div>
+							<span>最好成绩：</span>
+							<span>--</span>
+						</div>
+					</div>
+				</div>
+			 </div>
+			 
+			 <!-- BOSS关卡的关卡信息 -->
+			 <div class="gate_rate_big" style="display:none;">
+			 	<div class="user_info1">
+					<div class="user_count">
+						<div>
+							<span>闯关次数：</span>
+							<span>--</span>
+						</div>
+					</div>
+					<div class="lastTime">
+						<span>上一次闯关时间：</span>
+						<span>--</span>
+					</div>
+					<div class="bestScore">
+							<div>
+								<span>最好成绩：</span>
+								<span>--</span>
+							</div>
+							<div class="hspassed"><img src="new_ui/images/game/ico_5.png"></div>
+					</div>
+				</div>
+				<div class="user_info2">
+					<div class="total_time">
+						<span>完成关卡所用时间：</span>
+						<span>--</span>
+					</div>
+				</div>
+			 </div>
+			 </div>
+		</div>
+		
+		<div class="gate_info">
+			<div class="block_title">关卡信息</div>
+			<div class="gate_Carousel">
+				<div class="rate_box">
+					<!-- 注意：img_list中  img 的alt 属性值，在本案例中用于轮播时滑动定位请勿随意更改 -->
+					<ul class="img_list"></ul>
+				</div>
+				<div class="rate_indlist">
+					<ul class="ind_list">
+						<li class="indOn"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="gate_brief">
+				<div class="gate_brief_title"></div>
+				<div class="gate_brief_details"></div>
+			</div>
+		</div>
+		
+		<div class="btn_group" style="margin:70px auto 140px;">
+			<div class="back_index"><img src="new_ui/images/game/but_2.png"></div>
+			<div class="start_study"><img src="new_ui/images/game/but_3.png"></div>
+			<div class="open_wallet"><img src="new_ui/images/game/but_4.png"></div>
+		</div>
+	</div>
+	<!-- end of mainContent -->
+	
+	<div class="footer">
+		<div> <img src="new_ui/images/game/bg_bottom.png"> </div>
+		<div class="footer_info">
+			<div class="info_details">2002-2015  上海正邦公司版权所有.保留所有权利. | 沪ICP备07029341号</div>
+		</div>
+	</div>
+	
+	<!--小关卡 挑战结果失败 -->
+   <div class="gate_modal"> 
+   <div class="modal_content modal_content_a"> 
+    <div class="props_result_small"> 
+     <div class="gate_title"></div> 
+     <div class="modal_info">很遗憾！<br />您这次没有通过</div> 
+     <div class="modal_list"> 
+      <div class="moal_rate"> 
+       <div>当前进度：</div> 
+       <div class="rate_bar"> 
+        <div class="rate_barbg"> 
+         <div class="rate_progress" style="width:0%"></div> 
+        </div> 
+        <div class="rate_star"><img src="new_ui/images/game/jindu_2.png" /></div> 
+       </div> 
+       <div></div> 
+      </div>
+      <div class="tryTimes">
+       	已挑战次数：<span>0</span>&nbsp;次
+      </div> 
+     </div> 
+    </div> 
+    <div class="gate-footer"> 
+     <div class="footer-btn-group"> 
+      <div class="goBack"></div> 
+      <div class="gorefresh"></div> 
+      <div class="gonext1"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+
+  <!-- 小关卡挑战结果成功  --> 
+   <div class="gate_modal"> 
+   <div class="modal_content modal_content_a"> 
+    <div class="props_result_big"> 
+     <div class="gate_title"></div>
+     <div class="modal_info">
+      	过关啦！<br />山灵无法阻挡你前进的步伐
+     </div> 
+     <div class="modal_list">
+     <div class="moal_rate"> 
+       <div>当前进度：</div> 
+       <div class="rate_bar"> 
+        <div class="rate_barbg"> 
+         <div class="rate_progress" style="width:0%"></div> 
+        </div> 
+        <div class="rate_star">
+         <img src="new_ui/images/game/jindu_2.png" />
+        </div> 
+       </div> 
+       <div></div> 
+      </div>
+      <div class="tryTimes">
+       	已挑战次数：<span>0</span>&nbsp;次
+      </div> 
+      <div class="finishTime">
+      	 完成关卡所用时间：<span>0</span>
+      </div> 
+      <div class="bestScore">
+      	 最好成绩：<span></span>&nbsp;分
+      </div> 
+     </div>
+     <div class="wallet_btn wallet_btn_1 open_wallet">
+      <img src="new_ui/images/game/but_4.png" />
+     </div> 
+     <div class="wallet_btn wallet_btn_2 open_wallet">
+      <img src="new_ui/images/game/but_6.png" />
+     </div> 
+     <div class="wallet_btn wallet_btn_3">
+      <img src="new_ui/images/game/but_7.png" />
+     </div> 
+     <div class="gate_waring"></div> 
+    </div> 
+    <div class="gate-footer"> 
+     <div class="footer-btn-group"> 
+      <div class="goBack"></div> 
+      <div class="gorefresh"></div> 
+      <div class="gonext1"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  
+  
+  	<!--boss关卡 挑战结果失败 -->
+   <div class="gate_modal"> 
+   <div class="modal_content modal_content_a"> 
+    <div class="weapon_result_small"> 
+     <div class="gate_title"></div> 
+     <div class="modal_info">很遗憾！<br/>您这次没有通过</div> 
+     <div class="modal_list"> 
+     <div class="curScore">
+     	本次成绩：<span>0</span>&nbsp;次
+     </div>
+      <div class="tryTimes">
+       	已挑战次数：<span>0</span>&nbsp;次
+      </div> 
+     </div> 
+    </div> 
+    <div class="gate-footer"> 
+     <div class="footer-btn-group"> 
+      <div class="goBack"></div> 
+      <div class="gorefresh"></div> 
+      <div class="gonext1"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  
+  <!-- BOSS关卡挑战结果成功  --> 
+   <div class="gate_modal"> 
+   <div class="modal_content modal_content_a"> 
+    <div class="weapon_result_big"> 
+     <div class="gate_title"></div> 
+     <div class="result_star">
+      <img src=""/>
+     </div> 
+     <div class="modal_info modal_info_result">
+      	过关啦！<br />您通过了山灵的考验
+     </div> 
+     <div class="modal_list"> 
+      <div class="curScore">
+       	本次成绩：<span>0</span>&nbsp;分
+      </div> 
+      <div class="tryTimes">
+       	已挑战次数：<span>0</span>&nbsp;次
+      </div> 
+      <div class="finishTime">
+      	 完成关卡所用时间：<span>0</span>&nbsp;
+      </div> 
+     </div>
+     
+     <div class="wallet_btn wallet_btn_1 open_wallet">
+      <img src="new_ui/images/game/but_9.png" />
+     </div>
+      
+     <div class="wallet_btn wallet_btn_2 open_wallet">
+      <img src="new_ui/images/game/but_10.png" />
+     </div> 
+     <div class="wallet_btn wallet_btn_3">
+      <img src="new_ui/images/game/but_13.png" />
+     </div> 
+     <div class="gate_waring"></div> 
+    </div> 
+    <div class="gate-footer"> 
+     <div class="footer-btn-group"> 
+      <div class="goBack"></div> 
+      <div class="gorefresh"></div> 
+      <div class="gonext1"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  
+
+  <!-- 提示信息 ：获取道具失败--> 
+  <div class="gate_modal"> 
+   <div class="modal_content modal_content_b"> 
+    <div class="props_small"> 
+     <div class="modal_info_props"></div> 
+     <div class="modal_sure_false">
+      <img src="new_ui/images/game/but_8.png" />
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+
+  <!-- 提示信息 ：获取道具成功 --> 
+  <div class="gate_modal"> 
+   <div class="modal_content modal_content_b"> 
+    <div class="props_big"> 
+     <div class="modal_info_props"></div> 
+     <div class="gold_leaf">
+      <img src="" />
+     </div> 
+     <div class="modal_sure">
+      <img src="new_ui/images/game/but_8.png" />
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+
+  <!-- 提示信息 ：获取法宝失败 --> 
+  <div class="gate_modal"> 
+   <div class="modal_content  modal_content_b"> 
+    <div class="weapon_small"> 
+     <div class="modal_info_weapon"></div> 
+     <div class="modal_sure_false">
+      <img src="new_ui/images/game/but_8.png" />
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+
+  <!-- 提示信息 ：：获取法宝成功--> 
+   <div class="gate_modal "> 
+   <div class="modal_content modal_content_b"> 
+    <div class="weapon_big"> 
+     <div class="modal_info_weapon"></div> 
+     <div class="gold_leaf"><img src="" /></div> 
+     <div class="weapon_info"></div> 
+     <div class="modal_sure">
+      <img src="new_ui/images/game/but_8.png" />
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+</body>
+</html>

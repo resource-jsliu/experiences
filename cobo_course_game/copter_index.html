@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="new_ui/framework/jquery-1.11.3.min.js"></script>
+  <script src="new_ui/framework/bootstrap2/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="new_ui/framework/bootstrap2/css/bootstrap.css"></link>
+  <link rel="stylesheet" type="text/css" href="new_ui/css/copter.css">
+  <script type="text/javascript" src="new_ui/js/copter_user.js"></script>
+  <script type="text/javascript" src="new_ui/js/copter_index.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="top_pic">
+      <img src="new_ui/images/game/bg_top.png">
+    </div>
+    <div class="logo_floor">
+      <div class="logo_layer">
+        <div class="logo">
+          <img src="new_ui/images/game/logo.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of header -->
+
+  <div class="mainContent">
+    <div class="uerInfo">
+      <div class="left_side user_pic">
+        <div>
+          <img src="new_ui/images/game/pic.png">
+        </div>
+        <div class="goBack">[返回首页]</div>
+      </div>
+      <div class="left_side user_msg">
+        <div><span>上海正邦</span>，愿财富山之旅成为你的美好回忆！</div>
+        <div class="prop">
+          <div>已获道具:&nbsp;
+            <img src="new_ui/images/game/dj_1.png" width="35px" height="44px">× <span>0</span>
+          </div>
+          <div>我的总分值：<span>0</span>
+          </div>
+        </div>
+        <div class="weapon"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- end of uerInfo -->
+
+    <div class="path">
+      <div class="part_1">
+        <div class="welcome_pic">
+          <img src="new_ui/images/game/ck.png">
+        </div>
+        <div id="gate_1" class="level_1" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_1.png">
+          </div>
+          <div class="branch_title">看穿风险</div>
+        </div>
+        <div id="gate_2" class="level_2" align="center">
+          <div class="branch_num" align="center">
+            <img src="new_ui/images/game/no_2.png">
+          </div>
+          <div class="branch_title">管理投资组合</div>
+        </div>
+        <div id="gate_3" class="level_3" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_3.png">
+          </div>
+          <div class="branch_title">优化资产配置和税务</div>
+        </div>
+        <div id="boss_1" class="boss1_pic">
+          <div class="boss_picA">
+            <div>
+              <img src="new_ui/images/game/ck_1_1.png">
+            </div>
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_1.png">
+            </div>
+            <div class="boss_star_1"></div>
+          </div>
+        </div>
+        <div id="gate_4" class="level_4" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_4.png">
+          </div>
+          <div class="branch_title">一打“期权”</div>
+        </div>
+        <div id="gate_5" class="level_5" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_5.png">
+          </div>
+          <div class="branch_title">二打“互换”</div>
+        </div>
+        <div id="gate_6" class="level_6" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_6.png">
+          </div>
+          <div class="branch_title">三打“交易”</div>
+        </div>
+      </div>
+
+      <div class="part_2">
+        <div id="boss_2" class="boss2_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_2_1.png">
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_2.png">
+            </div>
+            <div class="boss_star_2"></div>
+          </div>
+        </div>
+        <div id="gate_7" class="level_7" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_7.png">
+          </div>
+          <div class="branch_title">债券知多少</div>
+        </div>
+        <div id="gate_8" class="level_8" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_8.png">
+          </div>
+          <div class="branch_title">固定收益的价值</div>
+        </div>
+        <div id="boss_3" class="boss3_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_3_1.png">
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_3.png">
+            </div>
+            <div class="boss_star_2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="part_3">
+        <div id="gate_9" class="level_9">
+          <div class="branch_title left_side" style="margin:26px 20px 0 0;">时间去哪啦</div>
+          <div class="branch_num left_side">
+            <img src="new_ui/images/game/no_9.png">
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div id="gate_10" class="level_10" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_10.png">
+          </div>
+          <div class="branch_title">时间与价值</div>
+        </div>
+        <div id="gate_11" class="level_11" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_11.png">
+          </div>
+          <div class="branch_title">公司的路在何方</div>
+        </div>
+        <div id="boss_4" class="boss4_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_4_1.png">
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_4.png">
+            </div>
+            <div class="boss_star_2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="part_4">
+        <div id="gate_12" class="level_12">
+          <div class="branch_num left_side">
+            <img src="new_ui/images/game/no_12.png">
+          </div>
+          <div class="branch_title left_side" style="margin:26px 0 0 20px;">证券市场知识的事儿</div>
+          <div class="clear"></div>
+        </div>
+        <div id="gate_13" class="level_13" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_13.png">
+          </div>
+          <div class="branch_title">证券交易知识的事儿</div>
+        </div>
+        <div id="gate_14" class="level_14" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_14.png">
+          </div>
+          <div class="branch_title">证券投资分析的事儿</div>
+        </div>
+        <div id="boss_5" class="boss5_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_5_1.png">
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_5.png">
+            </div>
+            <div class="boss_star_1"></div>
+          </div>
+        </div>
+        <div id="gate_15" class="level_15">
+          <div class="branch_title left_side" style="margin:26px 20px 0 0;">运营</div>
+          <div class="branch_num left_side">
+            <img src="new_ui/images/game/no_15.png">
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="part_5">
+        <div id="gate_16" class="level_16" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_16.png">
+          </div>
+          <div class="branch_title">策略</div>
+        </div>
+        <div id="gate_17" class="level_17" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_17.png">
+          </div>
+          <div class="branch_title">投资</div>
+        </div>
+        <div id="boss_6" class="boss6_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_6_1.png">
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_6.png">
+            </div>
+            <div class="boss_star_3"></div>
+          </div>
+        </div>
+        <div id="gate_18" class="level_18" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_18.png">
+          </div>
+          <div class="branch_title">中华人名共和国公司法</div>
+        </div>
+      </div>
+      
+      <div class="part_6">
+        <div id="gate_19" class="level_19">
+          <div class="branch_num left_side">
+            <img src="new_ui/images/game/no_19.png">
+          </div>
+          <div class="branch_title left_side" style="margin:26px 0 0 20px;">证券管理各个条例</div>
+          <div class="clear"></div>
+        </div>
+        <div id="gate_20" class="level_20" align="center">
+          <div class="branch_num">
+            <img src="new_ui/images/game/no_20.png">
+          </div>
+          <div class="branch_title">从业人员行为准则</div>
+        </div>
+        <div id="boss_7" class="boss7_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_7_1.png">
+          </div>
+          <div class="boss_picB">
+            <div>
+              <img src="new_ui/images/game/ck_7.png">
+            </div>
+            <div class="boss_star_3"></div>
+          </div>
+        </div>
+        <div id="boss_8" class="boss8_pic">
+          <div class="boss_picA">
+            <img src="new_ui/images/game/ck_8_1.png">
+          </div>
+          <div class="boss_picB">
+            <img src="new_ui/images/game/ck_8.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of path -->
+
+    <div class="gameLists">
+      <div class="hero_list" id="hearos">
+        <div class="list_content"></div>
+      </div>
+      <div class="score_list">
+        <div class="list_content"></div>
+      </div>
+    </div>
+    <!-- end of gameLists -->
+
+    <div class="comments">
+      <div class="com_textArea">
+        <textarea id="myComment" maxlength="140" placeholder="文字不超出140个字符"></textarea>
+      </div>
+      <div class="com_waring">一定要理性文明发言哦！</div>
+      <div class="com_submit">
+        <img src="new_ui/images/game/but_1.png">
+      </div>
+    </div>
+    <!-- end of commnets -->
+
+    <div class="postList">
+      <div class="posts_area"></div>
+      <div class="more_posts">点击加载更多</div>
+      <div class="posts_up">收起</div>
+    </div>
+    <!-- end of postList -->
+  </div>
+  <!-- end of mainContent -->
+
+  <div class="footer">
+    <div>
+      <img src="new_ui/images/game/bg_bottom.png">
+    </div>
+    <div class="footer_info">
+      <div class="info_details">2002-2015 上海正邦公司版权所有.保留所有权利. | 沪ICP备07029341号</div>
+    </div>
+  </div>
+  <div class="gotop">
+    <img src="new_ui/images/game/ico_backtop.png">
+  </div>
+  
+  
+  
+  <!-- 提示信息 ：获取终极道具--> 
+  <div class="gate_modal"> 
+   <div class="modal_content modal_content_a"> 
+    <div class="final_info" > 
+      <div class="final_text">
+      	历经千辛万苦，你最终通过了所有的关卡，你用你的智慧和力量证明了你拥有经营财富的能力！山灵要给你终极奖励！
+      </div>
+      <div class="get_btn"><img src="new_ui/images/game/but_11.png"></div>
+      <div class="total_info">
+      	<div class="left_side">总耗时：<span>12小时26分</span></div>
+      	<div class="right_side">总得分：<span>2457</span>分</div>
+      </div>
+    </div> 
+   </div> 
+  </div>
+  
+  <!-- 提示信息 ：获取终极法宝失败 --> 
+  <div class="gate_modal" > 
+   <div class="modal_content modal_content_b"> 
+    <div class="final_weapon_small"> 
+     <div class="modal_info_weapon">
+     	<div>您已经通关啦</div>
+     </div> 
+     <div class="modal_sure_false">
+      <img src="new_ui/images/game/but_8.png" />
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  
+  <!-- 提示信息 ：获取终极道具成功 --> 
+  <div class="gate_modal"> 
+   <div class="modal_content modal_content_b"> 
+    <div class="final_weapon"> 
+      <div class="final_text" style="margin-top:100px;">
+      	<div>恭喜你!</div>
+      	<div>山灵奖励你一把知识武器</div>
+      </div>
+      <div class="final_weapon_pic">
+      	<img src="new_ui/images/game/武器.png">
+      </div>
+      
+      <div class="total_info">
+      	<div class="left_side">总耗时：<span>12小时26分</span></div>
+      	<div class="right_side">总得分：<span>2457</span>分</div>
+      </div>
+      
+      <div class="see_hero_list">
+      	<a href="#hearos"><img src="new_ui/images/game/but_12.png"></a>
+      </div>
+    </div> 
+   </div> 
+  </div>
+  
+</body>
+
+</html>
