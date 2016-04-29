@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>loginDemo</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script type="text/javascript" src="new_ui/framework/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="new_ui/framework/bootstrap2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="new_ui/framework/bootstrap2/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="new_ui/framework/cobo-system/css/new_ui.css">
+
+  <link rel="stylesheet" type="text/css" href="new_ui/css/login.css">
+  <script type="text/javascript" src="new_ui/js/login.js"></script>
+</head>
+
+
+<body>
+  <div class="body_bg">
+    <div class="header">
+      <div class="notice">
+        <div class="message">
+          <div class="msg_info">公告：系统将于2015年06月18日00:00--24:00进行升级，届时系统将不可用，给您带来不便，敬请谅解！</div>
+          <div class="close_msg">
+            <i class="icon-remove icon-white"></i>
+        </div>
+      </div>
+  	 </div>
+
+      <div class="nav_bar">
+        <div class="nav_space">
+          <div class="nav_logo left_side">
+            <img src="new_ui/images/customers/logo.png">
+          </div>
+          <div class="nav_tools right_side">
+            <ul>
+              <li>服务热线：021-08209117-1</li>
+              <li><a id="collect" href="http://liu.cobocn.net/loginDemo/index.html" title="西南证券" rel="sidebar" style="text-decoration:none; color:#999;">收藏该网页,方便使用</a>
+              </li>
+              <li>
+              	<a href="#myhelp" data-toggle="modal">帮助</a>
+              </li>
+              <li>
+                <a href="#language" data-toggle="modal"><i class="cobo-language-chinese"></i>&nbsp;选择语言(Language)</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+                <div id="language" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">选择语言(Language)</h3>
+                  </div>
+                  <div class="modal-body">
+                    <div class="language_info"><i class="cobo-language-chinese"></i>&nbsp;&nbsp;简体中文</div>
+                    <div class="language_info"><i class="cobo-language-chinese"></i>&nbsp;&nbsp;繁體中文</div>
+                    <div class="language_info"><i class="cobo-language-usa"></i>&nbsp;&nbsp;English Beta</div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+                  </div>
+                </div>
+
+                <!-- Modal -->
+                <div id="myhelp" class="modal hide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">常见问题及帮助</h3>
+                  </div>
+                  <div class="modal-body" >
+                    <div class="media">
+                      <div class="media-left left_side" style="width:100px;">
+                        <a href="#">
+                          <img class="media-object" src="new_ui/images/system/skin_cobo_support.png" alt="技术支持">
+                        </a>
+                      </div>
+                      <div class="media-body left_side">
+                        <h4 class="media-heading">技术支持</h4>
+                        <ol class="help_info">
+                          <li>如果您在使用系统时，遇到任何技术上问题，可以直接通过以下方式获取帮助。</li>
+                          <li>我们的技术支持时间为周一至周五，早上9:00至下午6:00点。</li>
+                          <li>建议您使用IE 8.0或以上版本的浏览器，屏幕分辨率应在1024x768或以上。</li>
+                        </ol>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+
+                    <div class="media">
+                      <div class="media-left left_side" style="width:100px;">
+                        <a href="#">
+                          <img class="media-object" src="new_ui/images/system/skin_internal_support.png" alt="联系方式">
+                        </a>
+                      </div>
+                      <div class="media-body left_side">
+                        <h4 class="media-heading">联系方式</h4>
+                        <ol class="help_info">
+                          <li>电子邮件 <a href="mailto:wwliu@cobocn.com">wwliu@cobocn.com</a></li>
+                          <li>联系电话：021-58209117</li>
+                        </ol>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+                  </div>
+                </div>
+    <!-- end of header -->
+
+    <div class="mainContent">
+		<div class="first_floor">
+			<div class="second_floor">
+				<div class="login_form">
+					<div class="error_info"> 
+            <div class="show_error_info">
+              	<i class="cobo-error"></i> 您输入的用户名或密码有误
+            </div> 
+          </div>
+					<div class="input_file">
+						<input  type="text" placeholder="用户名/手机号/邮箱">	
+						<div class="input_pic">
+							<i class="cobo-user"></i>
+						</div>
+					</div>
+					<div class="input_file">
+						<input  type="password" placeholder="密码">	
+						<div class="input_pic">
+							<i class="cobo-lock"></i>
+						</div>
+					</div>
+					<div class="security_code">
+						<div class="left_side"><input type="text" placeholder="验证码"></div>
+						<div class="right_side"><img src="new_ui/images/customers/secCode.png"></div>
+						<div class="clear"></div>
+					</div>
+
+					<div class="remeber_me">
+						<div class="left_side"><input type="checkbox" style="margin:0;"> <span style="color: rgb(255,255,255);">记住我的用户名</span></div>
+						<div class="right_side" style="color: rgb(255,255,255);cursor: pointer;">忘记密码？</div>
+						<div class="clear"></div>
+					</div>
+
+					<a href="#" id="submit" class="submit_btn">登 录</a>
+
+					<div style="margin:20px 15px;width:250px;height: 0; border-bottom:1px solid white;"></div>
+
+					<div style="margin:20px 15px; height: 20px;line-height: 20px; color:white;">
+						还没有账号？
+						<a href="#" style="color: rgb(255,255,255);">立即注册</a>
+				    </div>	
+
+				    <div class="chage_form">
+				    	<i class="cobo-half-qrCode picChange right_side"></i>
+				    </div>
+				</div>
+
+				<div class="login_qrCode">
+					<div class="qr_info">关注微信</div>
+					<div class="qr_img"><img src="new_ui/images/system/qr.png"></div>
+					 <div class="chage_form">
+				    	<i class="cobo-half-phone picChange right_side"></i>
+				    </div>
+				</div>
+
+				</div>
+			</div>
+		</div> <!-- end of mainContent -->
+     <div class="footer">
+      <div class="message">©&nbsp;&nbsp;2002-2015&nbsp;&nbsp;上海正邦公司版权所有.&nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备07029341号 </div>
+    </div>
+    
+    <div style="width:100%;height:1200px;border:1px solid red;"></div>
+    
+    
+    
+  </div>
+ 
+</body>
+
+</html>

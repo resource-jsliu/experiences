@@ -1,0 +1,436 @@
+[class^="cobo-"],
+[class*=" cobo-"]{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*
+****** 1.png *****
+*****************************/
+.cobo-coporTrain{
+	background:url(../images/1.png) no-repeat 0 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-courseStore-mini{
+	background:url(../images/1.png) no-repeat -32px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-Edocument{
+	background:url(../images/1.png) no-repeat -64px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-passTasks{
+	background:url(../images/1.png) no-repeat -96px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-registProject{
+	background:url(../images/1.png) no-repeat -128px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-trainProject{
+	background:url(../images/1.png) no-repeat -160px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-microlecture{
+	background:url(../images/1.png) no-repeat -192px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-helpers{
+	background:url(../images/1.png) no-repeat -224px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-teacherTools{
+	background:url(../images/1.png) no-repeat -256px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+.cobo-reportForms{
+	background:url(../images/1.png) no-repeat -288px 0;
+	width:30px;
+	height:30px;
+	line-ght:30px;
+}
+
+/*
+****** 4.png *****
+*****************************/
+.cobo-score0{
+	background:url(../images/4.png) no-repeat 0 0;
+	width:92px;
+	height:12px;
+	line-height:12px;
+}
+
+.cobo-score1{
+	background:url(../images/4.png) no-repeat 0 -14px ;
+	width:92px;
+	height:12px;
+	line-height:12px;
+}
+
+.cobo-score2{
+	background:url(../images/4.png) no-repeat 0 -28px ;
+	width:92px;
+	height:12px;
+	line-height:12px;
+}
+
+.cobo-score3{
+	background:url(../images/4.png) no-repeat 0 -42px;
+	width:92px;
+	height:12px;
+	line-height:12px;
+}
+
+.cobo-score4{
+	background:url(../images/4.png) no-repeat 0 -56px;
+	width:92px;
+	height:12px;
+	line-height:12px;
+}
+
+.cobo-score5{
+	background:url(../images/4.png) no-repeat 0 -70px;
+	width:92px;
+	height:12px;
+	line-height:12px;
+}
+
+
+
+/*
+****** 5.png *****
+*****************************/
+.cobo-prev{
+	background:url(../images/5.png) no-repeat 0 0;
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+
+.cobo-next{
+	background:url(../images/5.png) no-repeat -42px 0;
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+
+.cobo-up{
+	background:url(../images/5.png) no-repeat -84px 0;
+	width:29px;
+	height:16px;
+	line-height:16px;
+}
+
+.cobo-badge-2{
+	background:url(../images/5.png) no-repeat -115px 0;
+	width:20px;
+	height:20px;
+	line-height:20px;
+}
+
+.cobo-half-qrCode{
+	background:url(../images/5.png) no-repeat 0px -40px ;
+	width:50px;
+	height:50px;
+	line-height:50px;
+}
+
+.cobo-half-phone{
+	background:url(../images/5.png) no-repeat -52px -40px ;
+	width:50px;
+	height:50px;
+	line-height:50px;
+}
+
+/*
+****** 6.png *****
+*****************************/
+
+.cobo-tasks{
+	background:url(../images/6.png) no-repeat 0 0;
+	width:45px;
+	height:45px;
+	line-heght:45px;
+}
+
+.cobo-courseCenter{
+	background:url(../images/6.png) no-repeat -47px 0;
+	width:35px;
+	height:45px;
+	line-heght:45px;
+}
+
+.cobo-courseStore{
+	background:url(../images/6.png) no-repeat -84px 0;
+	width:52px;
+	height:45px;
+	line-heght:45px;
+}
+
+.cobo-trainItem{
+	background:url(../images/6.png) no-repeat -138px 0;
+	width:46px;
+	height:45px;
+	line-heght:45px;
+}
+
+
+
+
+/*
+****** 2.png *****
+*****************************/
+.cobo-error{
+	background:url(../images/2.png) no-repeat 0 0 ;
+	width:15px;
+	height:15px;
+	line-height:15px;
+}
+
+
+.cobo-badge{
+	background:url(../images/2.png) no-repeat -17px 0px ;
+	width:15px;
+	height:15px;
+	line-height:15px;
+}
+
+.cobo-user{
+	background:url(../images/2.png) no-repeat -34px 0px ;
+	width:16px;
+	height:16px;
+	line-height:16px;
+}
+
+.cobo-lock{
+	background:url(../images/2.png) no-repeat -48px 0px ;
+	width:16px;
+	height:16px;
+	line-height:16px;
+}
+
+.cobo-circle{
+	background:url(../images/2.png) no-repeat -64px 0px ;
+	width:8px;
+	height:8px;
+	line-height:8px;
+}
+
+.cobo-emptyCircle{
+	background:url(../images/2.png) no-repeat -74px 0px ;
+	width:8px;
+	height:8px;
+	line-height:8px;
+}
+
+.cobo-dropImg{
+	background:url(../images/2.png) no-repeat -85px 0px ;
+	width:10px;
+	height:5px;
+	line-height:5px;	
+}
+
+.cobo-dropImg-white{
+	background:url(../images/2.png) no-repeat -97px 0px ;
+	width:10px;
+	height:5px;
+	line-height:5px;
+}
+
+
+
+/*
+****** 3.png *****
+*****************************/
+.cobo-edit{
+	background:url(../images/3.png) no-repeat 0px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-gear{
+	background:url(../images/3.png) no-repeat -15px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-wrench{
+	background:url(../images/3.png) no-repeat -30px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-cart{
+	background:url(../images/3.png) no-repeat -45px 0px ;
+	width:15px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-volume{
+	background:url(../images/3.png) no-repeat -62px 0px ;
+	width:9px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-volume{
+	background:url(../images/3.png) no-repeat -62px 0px ;
+	width:9px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-service{
+	background:url(../images/3.png) no-repeat -73px 0px ;
+	width:14px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-mobile{
+	background:url(../images/3.png) no-repeat -88px 0px ;
+	width:8px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-mobile-blue{
+	background:url(../images/3.png) no-repeat -98px 0px ;
+	width:8px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-off{
+	background:url(../images/3.png) no-repeat -108px 0px ;
+	width:11px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-money{
+	background:url(../images/3.png) no-repeat -121px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-person{
+	background:url(../images/3.png) no-repeat -136px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-clock{
+	background:url(../images/3.png) no-repeat -150px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-pen{
+	background:url(../images/3.png) no-repeat -165px 0px ;
+	width:13px;
+	height:13px;
+	line-height:13px;
+}
+
+.cobo-vote{
+	background:url(../images/3.png) no-repeat -180px 0px ;
+	width:13px;
+	height:14px;
+	line-height:14px;
+}
+
+.cobo-comment{
+	background:url(../images/3.png) no-repeat -195px 0px ;
+	width:13px;
+	height:12px;
+	line-height:12px;
+}
+
+
+.cobo-search{
+	background:url(../images/3.png) no-repeat -208px 0px ;
+	width:16px;
+	height:13px;
+	line-height:13px;
+}
+
+
+.cobo-language-chinese{
+	background:url(../images/3.png) no-repeat -224px 0px ;
+	width:16px;
+	height:11px;
+	line-height:11px;
+}
+
+.cobo-language-usa{
+	background:url(../images/3.png) no-repeat -242px 0px ;
+	width:16px;
+	height:11px;
+	line-height:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

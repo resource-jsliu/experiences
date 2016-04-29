@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #999;
+}
+
+input{
+	font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+}
+
+ /* .body_bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../images/customers/banner.jpg) no-repeat red center 0px;
+  z-index: 1;
+} 
+ */
+
+.body_bg{
+	  position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      zoom: 1;
+      background-image: url(../images/customers/banner.jpg);
+} 
+
+a {
+  text-decoration: none;
+  color: #999;
+  cursor: pointer;
+}
+
+a:hover, a:focus {
+  color: #999;
+  text-decoration: none;
+}
+
+.left_side {
+  float: left;
+}
+
+.right_side {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+
+.header{
+	position: fixed;
+	top:0;
+	z-index:1000;
+	width:100%;
+}
+
+
+.header .notice {
+ 	height: 30px;
+  	line-height: 30px;
+  	background: #1e1b29;
+}
+
+.message ,
+.nav_space{
+  margin: 0 auto;
+  width: 1000px;
+  height:100%;
+}
+
+.msg_info {
+  float: left;
+  color: #fff;
+}
+
+.close_msg {
+  float: right;
+  cursor: pointer;
+}
+
+.nav_bar {
+  width: 100%;
+  height: 115px;
+  background: #f5f5f5;
+}
+
+.nav_logo {
+  margin-top: 33px;
+  width: auto;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.nav_tools {
+   height: 115px;
+}
+
+.nav_tools li {
+  margin-top: 63px;
+  padding: 0 10px;
+  height: 15px;
+  line-height: 15px;
+  list-style: none;
+  border-right: 1px solid #ccc;
+  float: right;
+  cursor: pointer;
+}
+
+.nav_tools li:first-child {
+  cursor: default;
+  padding-right: 0;
+  border: none;
+}
+
+.modal{
+	left: 40%;
+	width: 800px;
+}
+
+.modal li{
+	height: 20px;
+	line-height: 20px;
+}
+
+.modal.fade.in{
+	top:20%;
+}
+
+.help_info li{
+	cursor: pointer;
+}
+/* *******************************************end of header************************************************************** */
+.mainContent {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+
+.first_floor {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);
+  z-index: 100;
+}
+
+.second_floor {
+  margin: 10px;
+  padding: 1px;
+  right: 10px;
+  width: 280px;
+  background: rgba(0, 0, 0, 0.05);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0C000000,endColorstr=#0C000000);
+  z-index: 20;
+}
+
+.error_info {
+  margin: 10px 15px;
+  height: 15px;
+  line-height: 15px;
+}
+
+.show_error_info{
+ display: none; 
+  color: red;
+}
+
+.input_file {
+  position: relative;
+  margin: 20px 15px;
+  margin-top:10px; 
+  height: 40px;
+}
+
+.input_file input{
+  font-size: 14px;
+  font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+  margin: 0;
+ padding-left: 40px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.input_pic {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  z-index: 30;
+}
+
+.security_code {
+  display: none;
+  margin: 10px 15px;
+  width: auto;
+  height: 40px;
+}
+
+.security_code input {
+  margin: 0;
+  width: 133px;
+  height: 32px;
+}
+
+.remeber_me {
+  margin: 10px 15px;
+  width: auto;
+  height: 16px;
+  line-height: 16px;
+  color: white;
+}
+
+.submit_btn {
+  display: block;
+  margin:  15px;
+  font-size: 20px;
+  color: white;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  text-align: center;
+  background: red;
+  cursor: pointer;
+}
+
+.submit_btn:hover, .submit_btn:focus {
+  color: white;
+}
+
+.chage_form {
+  width: auto;
+  height: 50px;
+  cursor: pointer;
+}
+
+.chage_form .right_side {
+  cursor: pointer;
+}
+
+.login_qrCode {
+  display: none;
+}
+
+.qr_info {
+  margin: 20px 40px;
+  font-size: 14px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+}
+
+.qr_img {
+  margin: 0 40px 20px;
+  width: 200px;
+  height: 200px;
+}
+
+/* ********************************************end of mainContent********************************************************* */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+
+.footer .message {
+  width: 1000px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+
+}
